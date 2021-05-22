@@ -1,4 +1,5 @@
 PODS:
+  - IQKeyboardManager (6.5.6)
   - IWExtendUI (0.1.0):
     - Masonry
     - QMUIKit
@@ -313,10 +314,12 @@ PODS:
   - QMUIKit/QMUIWeakObjectContainer (4.1.3)
 
 DEPENDENCIES:
+  - IQKeyboardManager
   - IWExtendUI (from `../`)
 
 SPEC REPOS:
   trunk:
+    - IQKeyboardManager
     - Masonry
     - QMUIKit
 
@@ -325,10 +328,11 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
+  IQKeyboardManager: 2a6e97afdafc7becf0cb17a9a8d795e3a980717f
   IWExtendUI: aabb25cf81ba05fd17d0ee140b23a006e6586249
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
   QMUIKit: 1063a99f90aedd6e2dd65026ce0df46e6785e67b
 
-PODFILE CHECKSUM: 7b02070a148cebce2746a694664312289106a2db
+PODFILE CHECKSUM: 1662d1edb17a3fde1b154ca008de6c1f824b77aa
 
 COCOAPODS: 1.10.1

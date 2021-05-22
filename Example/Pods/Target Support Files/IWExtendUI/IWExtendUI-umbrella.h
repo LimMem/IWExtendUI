@@ -12,6 +12,8 @@
 
 #import "IWHeadPanelView.h"
 #import "IWPanelLabelView.h"
+#import "IWPopupCollectionCell.h"
+#import "IWPopupView.h"
 #import "IWProgressPanel.h"
 #import "IWShareBundle.h"
 #import "IWShareTool.h"

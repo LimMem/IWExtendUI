@@ -247,6 +247,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = LimMem;
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = SSF8X63GPK;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -324,12 +327,14 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-IWExtendUI_Example/Pods-IWExtendUI_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/IQKeyboardManager/IQKeyboardManager.framework",
 				"${BUILT_PRODUCTS_DIR}/IWExtendUI/IWExtendUI.framework",
 				"${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework",
 				"${BUILT_PRODUCTS_DIR}/QMUIKit/QMUIKit.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManager.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IWExtendUI.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Masonry.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/QMUIKit.framework",
@@ -498,6 +503,7 @@
 			baseConfigurationReference = 7211D94B06B1613C062053CB /* Pods-IWExtendUI_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = SSF8X63GPK;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "IWExtendUI/IWExtendUI-Prefix.pch";
 				INFOPLIST_FILE = "IWExtendUI/IWExtendUI-Info.plist";
@@ -514,6 +520,7 @@
 			baseConfigurationReference = A63FC4C6F41AE37E35EDF63A /* Pods-IWExtendUI_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = SSF8X63GPK;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "IWExtendUI/IWExtendUI-Prefix.pch";
 				INFOPLIST_FILE = "IWExtendUI/IWExtendUI-Info.plist";
