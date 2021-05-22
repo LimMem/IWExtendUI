@@ -1,0 +1,6 @@
+framework module IWExtendUI {
+  umbrella header "IWExtendUI-umbrella.h"
+
+  export *
+  module * { export * }
+}
